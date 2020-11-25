@@ -138,6 +138,7 @@ button:hover {
 footer {
   text-align:center; 
 }
+
 .back-to-top {
   color: black; 
   text-decoration: none; 
@@ -160,14 +161,12 @@ footer {
   margin-bottom: 20px;
   font-size: 15px;
 }
-.page-created {
-  text-align: center;
-}
+
 .linked-in-page {
   text-decoration: underline;
   color: black;
 }
 .linked-in-page:hover {
   text-decoration: underline;
-  color: blue;
+  color:green;
 }
