@@ -2,6 +2,13 @@ body {
 font-family: 'Open Sans Condensed', sans-serif;
 }
 
+.container { 
+  width: 100%;
+  display: block;
+  margin: 0 auto;
+ border: 1px solid transparent;
+
+}
 .header {
  text-align: center;
  border-radius: 4px; 
@@ -16,11 +23,22 @@ font-family: 'Open Sans Condensed', sans-serif;
   color: black; 
 }
 
-.recipe-page-wrapper {
-  border-radius: 5px; 
-  background-color: red;
-}
+.paragraph {
+  display: block; 
+  line-height: 2;
+  font-size: 14px;
+  text-align: center;
+  padding: 10px; 
+  margin: 0 auto; 
+  width: 500px; 
+    }
 
+.column-prep {
+  float: left;
+  width: 33.33%;
+  padding: 30px;
+  text-align: center; 
+}
 
 h1 {
       border-radius: 4px;
@@ -34,30 +52,25 @@ h1 {
       font-weight: 700;
     }
 
-    h3 {
+    .ingredients-list {
       color: #7f8814;
       padding: 0 0 0 20px;
+      width: 100%; 
     }
+
 
     h4 {
       color: #7f8814;
       font-size: 18.72px;
-        padding: 0 0 0 20px;
+      padding: 0 0 0 20px;
     }
 
     img {
       border-radius: 5px;
       display: block;
       margin: 0 auto;
-      width: 300px;
+      width: 200px;
       box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2);
-    }
-
-    p {
-      line-height: 2;
-      font-size: 14px;
-      text-align: justify;
-      padding: 5px 5px 5px 16px;
     }
 
     button {
@@ -78,6 +91,7 @@ h1 {
       background: white;
       color: #7f8f23;
     }
+
 
     .intro {
       padding: 10px;
