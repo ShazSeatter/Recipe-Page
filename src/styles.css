@@ -1,161 +1,173 @@
 body {
-font-family: 'Open Sans Condensed', sans-serif;
+  font-family: "Open Sans Condensed", sans-serif;
 }
 
-.container { 
+.container {
   width: 100%;
   display: block;
   margin: 0 auto;
- border: 1px solid transparent;
-
+  border: 1px solid transparent;
 }
 .header {
- text-align: center;
- border-radius: 4px; 
- font-family: 'Amatic SC', cursive;
+  text-align: center;
+  border-radius: 4px;
+  font-family: "Amatic SC", cursive;
 }
 .navigation-bar {
-  padding: 20px; 
+  padding: 20px;
   background-color: lightgoldenrodyellow;
 }
 .nav {
-  padding: 50px; 
-  color: black; 
+  padding: 50px;
+  color: black;
 }
 
 .paragraph {
-  display: block; 
+  display: block;
   line-height: 2;
   font-size: 14px;
   text-align: center;
-  padding: 10px; 
-  margin: 0 auto; 
-  width: 500px; 
-    }
+  padding: 10px;
+  margin: 0 auto;
+  width: 500px;
+}
 
 .column-prep {
   float: left;
   width: 33.33%;
   padding: 30px;
-  text-align: center; 
+  text-align: center;
 }
 
 h1 {
-      border-radius: 4px;
-      color: #7f8f23;
-      font-size: 40px;
-      padding: 13px;
-    }
+  border-radius: 4px;
+  color: #7f8f23;
+  font-size: 40px;
+  padding: 13px;
+}
 
-    h2 {
-      color: #eebb4d;
-      font-weight: 700;
-    }
+h2 {
+  color: #eebb4d;
+  font-weight: 700;
+}
 
-    .ingredients-list {
-      color: #7f8814;
-      padding: 20px 5px 20px 50px;
-      width: 100%;
-      font-size: 20px; 
-    }
+img {
+  border-radius: 5px;
+  display: block;
+  margin: 0 auto;
+  width: 200px;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2);
+}
 
+button {
+  display: block;
+  margin: 50px auto;
+  background: #7f8f23;
+  color: white;
+  border: 2px solid #7f8f23;
+  font-size: 20px;
+  padding: 10px 15px;
+  border-radius: 10px;
+  box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.2);
+  transition: all 200ms ease-in-out;
+}
 
-    h4 {
-      color: #7f8814;
-      font-size: 18.72px;
-      padding: 0 0 0 20px;
-    }
+button:hover {
+  cursor: pointer;
+  background: white;
+  color: #7f8f23;
+}
 
-    img {
-      border-radius: 5px;
-      display: block;
-      margin: 0 auto;
-      width: 200px;
-      box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2);
-    }
+.intro {
+  padding: 10px;
+}
+.ul {
+  width: 300px;
+  height: 200px;
+}
 
-    button {
-      display: block;
-      margin: 50px auto;
-      background: #7f8f23;
-      color: white;
-      border: 2px solid #7f8f23;
-      font-size: 20px;
-      padding: 10px 15px;
-      border-radius: 10px;
-      box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.2);
-      transition: all 200ms ease-in-out;
-    }
+.ingredients-list {
+  color: #7f8814;
+  padding: 20px 5px 20px 50px;
+  width: 100%;
+  font-size: 18px;
+}
 
-    button:hover {
-      cursor: pointer;
-      background: white;
-      color: #7f8f23;
-    }
+.ingredients {
+  list-style: none;
+  padding: 5px;
+  font-size: 16px;
+  color: black;
+}
+.icon {
+  padding-right: 10px;
+}
 
+.instructions-list {
+  color: #7f8814;
+  list-style: none;
+  padding: 10px;
+  line-height: 2;
+  padding: 20px 5px 20px 50px;
+  width: 100%;
+  font-size: 18px;
+}
 
-    .intro {
-      padding: 10px;
-    }
-    .ul {
-      width: 300px;
-      height: 200px;
-    }
+.instructions-list h4 {
+  font-size: 20px;
+}
 
-    .ingredients {
-      list-style: none;
-      padding: 5px;
-    }
-    .fa-list {
-      padding-right: 10px; 
-    }
-    .ingredient {
-        color:green
+.instructions {
+  color: black;
+}
 
-    }
-    .Instructions {
-      list-style: none;
-      padding: 10px;
-      line-height: 30p;
-    }
+* {
+  box-sizing: border-box;
+}
 
-    * {
-      box-sizing: border-box;
-    }
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 60px;
+}
 
-    .column {
-      float: left;
-      width: 33.33%;
-      padding: 60px;
-    }
+.column img {
+  height: 400px;
+}
 
-    .column img {
-      height: 400px;
-    }
-
-    .here {
-      text-decoration: none;
-      color: green;
-    }
-    .here:hover {
-      text-decoration: underline;
-      color: green;
-    }
-    .More-receipes {
-      padding: 30px;
-      margin-top: 10px;
-      margin-bottom: 20px;
-      font-size: 15px;
-    }
-    .Page-created {
-      text-align: center;
-    }
-    .linked-in-page {
-        text-decoration: underline;
-        color: black;
-
-    }
-    .linked-in-page:hover {
-    text-decoration: underline;
-    color: blue
-    }
+footer {
+  text-align:center; 
+}
+.back-to-top {
+  color: black; 
+  text-decoration: none; 
+}
+.back-to-top:hover {
+  color: green; 
+  text-decoration: underline; 
+}
+.here {
+  text-decoration: none;
+  color: green;
+}
+.here:hover {
+  text-decoration: underline;
+  color: green;
+}
+.more-receipes {
+  padding: 30px;
+  margin-top: 10px;
+  margin-bottom: 20px;
+  font-size: 15px;
+}
+.page-created {
+  text-align: center;
+}
+.linked-in-page {
+  text-decoration: underline;
+  color: black;
+}
+.linked-in-page:hover {
+  text-decoration: underline;
+  color: blue;
+}
