@@ -54,8 +54,9 @@ h1 {
 
     .ingredients-list {
       color: #7f8814;
-      padding: 0 0 0 20px;
-      width: 100%; 
+      padding: 20px 5px 20px 50px;
+      width: 100%;
+      font-size: 20px; 
     }
 
 
@@ -100,15 +101,14 @@ h1 {
       width: 300px;
       height: 200px;
     }
-    .ingredient-one {
-      background: linear-gradient(#a8d167, #cde2a7);
-      margin: 0 auto;
-    }
+
     .ingredients {
-      list-style: circle;
+      list-style: none;
       padding: 5px;
     }
-    
+    .fa-list {
+      padding-right: 10px; 
+    }
     .ingredient {
         color:green
 
